@@ -1,0 +1,29 @@
+[versions]
+
+eat-log = '1.0.6'
+eat-ext = '1.0.15'
+apihelper = '1.0.11'
+eat-nav = '1.0.1'
+keyboardhelper = '1.0.0'
+loadingui = '1.0.16'
+iosdialog = '1.0.8'
+glidemodule = '1.0.4'
+swipelayout = '1.0.1'
+stickyheaders = '1.0.1'
+chrometab = '1.0.0'
+eat-res = '1.0.6'
+
+[libraries]
+
+eat-log = {group = "ru.eatmarket", name = "logutils", version.ref = "eat-log" }
+eat-ext = {group = "ru.eatmarket", name = "extentions", version.ref = "eat-ext" }
+eat-res = {group = "ru.eatmarket", name = "sharedresources", version.ref = "eat-res" }
+eat-nav = {group = "ru.eatmarket", name = "navigation", version.ref = "eat-nav" }
+apihelper = {group = "ru.eatmarket", name = "apihelper", version.ref = "apihelper" }
+keyboardhelper = {group = "ru.eatmarket", name = "keyboardhelper", version.ref = "keyboardhelper" }
+loadingui = {group = "ru.eatmarket", name = "loadingui", version.ref = "loadingui" }
+iosdialog = {group = "ru.eatmarket", name = "iosdialog", version.ref = "iosdialog" }
+glidemodule = {group = "ru.eatmarket", name = "glidemodule", version.ref = "glidemodule" }
+swipelayout = {group = "ru.eatmarket", name = "swipelayout", version.ref = "swipelayout" }
+stickyheaders = {group = "ru.eatmarket", name = "stickyheaders", version.ref = "stickyheaders" }
+chrometab = {group = "ru.eatmarket", name = "chrometab", version.ref = "chrometab" }
