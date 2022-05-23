@@ -1,4 +1,4 @@
 rootProject.name = "version-catalogs"
 
 include(":libs")
-include(":aqsi")
+include(":external")

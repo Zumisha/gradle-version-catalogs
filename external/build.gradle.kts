@@ -37,7 +37,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/orgs/Zustematic")
+            url = uri("https://maven.pkg.github.com/zumisha/Data-Collection-Terminal")
             name = "GitHubPackages"
             credentials {
                 username = getProp("GITHUB_USERID")
