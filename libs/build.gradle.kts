@@ -21,7 +21,7 @@ fun getProp(key: String): String? = if (ext.has(key)) ext[key]?.toString() else 
 
 catalog {
     versionCatalog {
-        from(files("./external.versions.toml"))
+        from(files("./libs.versions.toml"))
     }
 }
 
@@ -29,7 +29,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "com.zustematic.versions"
-            artifactId = "external"
+            artifactId = "libs"
             version = "1.0.0"
             from(components["versionCatalog"])
         }
@@ -48,7 +48,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/orgs/Zustematic")
+            url = uri("https://maven.pkg.github.com/zumisha/Data-Collection-Terminal")
             name = "GitHubPackages"
             credentials {
                 username = getProp("GITHUB_USERID")
